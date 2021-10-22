@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f2f5;
+}
+form{
+    background-color: #fff;
+    width: 350px;
+    height: 270px;
+    position: absolute;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 750px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+}
+input[type='text'], input[type='password']{
+    display: block;
+    background-color: #fff;
+    margin: 16px;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 230px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+
+}
+button{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    margin: auto;
+    width: 310px;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.line{
+    border-top: 1px solid black;
+    opacity: 0.3;
+}
+.new-button{
+    background-color: #42b72a;
+    width: 170px;
+    font-size: 14px;
+}
+.sub-link h3{
+    width: 270px;
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Arial;
+    padding: 70px 800px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sub-link h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.facebook-logo{
+    width: 350px;
+    margin-left: 230px;
+    margin-top: 30vh;
+}
+.facebook-logo img{
+    width: 250px;
+    
+}
+p{
+    font-size: 20px;
+    
+}
+.forget-pass{
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    color: #1877f2;
+    padding-left: 80px;
+    
+}
